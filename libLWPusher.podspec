@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libLWPusher'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of libLWPusher.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,33 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  # s.libraries = 'sqlite3','z','XG-SDK'
+  # s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  # s.vendored_libraries = 'Pod/libLWPusher/XGPush/libXG-SDK.a'
+  # s.source_files = 'Pod/libLWPusher/XGPush/*.{h,m}'
+
+
+  # 参考：
+  # https://stackoverflow.com/questions/19481125/add-static-library-to-podspec
+  # https://www.jianshu.com/p/5d987d82d4d9
+
+  s.subspec 'XGPush' do |c|
+      # c.public_header_files = 'libLWPusher/XGPush/XGPush.h'
+      # c.dependency 'AFNetworking'
+      # c.resources = 'libLWPusher/XGPush/Assets/*'
+      c.source_files = 'libLWPusher/XGPush/*.{h,m}'
+      c.preserve_paths = 'libLWPusher/XGPush/*.h'
+      c.vendored_libraries = 'libLWPusher/XGPush/libXG-SDK.a'
+      c.libraries = 'XG-SDK','sqlite3','z'
+      c.frameworks = 'UIKit','CoreTelephony', 'SystemConfiguration'
+      # c.frameworks = 'CoreTelephony', 'SystemConfiguration','UserNotifications'
+      # c.xcconfig = {
+      #   'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/XGPush/**",
+      #   'OTHER_LDFLAGS' => '$(inherited)'
+      #   # 'OTHER_CFLAGS' => '$(inherited)'
+      # }
+    end
+
+
 end

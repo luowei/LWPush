@@ -1,0 +1,18 @@
+PODS:
+  - libLWPusher (1.0.0):
+    - libLWPusher/XGPush (= 1.0.0)
+  - libLWPusher/XGPush (1.0.0)
+
+DEPENDENCIES:
+  - libLWPusher (from `../`)
+
+EXTERNAL SOURCES:
+  libLWPusher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libLWPusher: 4d3c76c7c887909ef20afd0f9664b17359d15ada
+
+PODFILE CHECKSUM: 53815a0abc3638ccf7f7a8de25e83b1e9ff1236c
+
+COCOAPODS: 1.5.3

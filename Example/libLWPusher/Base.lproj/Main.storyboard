@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +20,49 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDx-Js-wfD">
+                                <rect key="frame" x="112" y="368.5" width="31" height="30"/>
+                                <state key="normal" title="绑定"/>
+                                <connections>
+                                    <action selector="bindAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="kf6-qq-rzu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICB-ZG-f9Q">
+                                <rect key="frame" x="232" y="368.5" width="31" height="30"/>
+                                <state key="normal" title="解绑"/>
+                                <connections>
+                                    <action selector="unbindAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="Ywy-Ap-0vL"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Account" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9J-pJ-i6c">
+                                <rect key="frame" x="112" y="313.5" width="151" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PZZ-23-Iad"/>
+                                    <constraint firstAttribute="width" constant="151" id="wHw-jT-Ftz"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xDx-Js-wfD" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" constant="-60" id="55c-Wi-kLE"/>
+                            <constraint firstItem="ICB-ZG-f9Q" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="50" id="9OV-gA-Bhu"/>
+                            <constraint firstItem="l9J-pJ-i6c" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="E3k-QU-U2u"/>
+                            <constraint firstItem="xDx-Js-wfD" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="50" id="c2c-UF-FO8"/>
+                            <constraint firstItem="ICB-ZG-f9Q" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" constant="60" id="cDA-qk-ANo"/>
+                            <constraint firstItem="l9J-pJ-i6c" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="wa5-UM-q7V"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="accountField" destination="l9J-pJ-i6c" id="8lJ-EW-HmP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>
