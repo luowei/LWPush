@@ -1,6 +1,6 @@
 //
 //  信鸽核心接口
-//  XG-SDK
+//  XG-SDK v3.3.5
 //
 //  Created by xiangchen on 13-10-18.
 //  Update by uweiyuan on 4/08/17.
