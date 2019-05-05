@@ -11,6 +11,7 @@
 #import <UserNotifications/UserNotifications.h>
 
 @interface LWPushManager () <UNUserNotificationCenterDelegate,XGPushDelegate,XGPushTokenManagerDelegate>
+
 @end
 
 #endif
@@ -24,6 +25,10 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedMyManager = [[self alloc] init];
+
+        //默认配置为Test App
+        sharedMyManager.appID = 2200331850;
+        sharedMyManager.appKey = @"IG6KRRX2857P";
     });
     return sharedMyManager;
 }
@@ -31,7 +36,7 @@
 
 -(void)xg_push_test{
     //启动信鸽推送服务
-    [[XGPush defaultManager] startXGWithAppID:2200331850 appKey:@"IG6KRRX2857P" delegate:self];
+    [[XGPush defaultManager] startXGWithAppID:self.appID appKey:self.appKey delegate:self];
 
     //打开debug开关
     [[XGPush defaultManager] setEnableDebug:YES];
@@ -104,9 +109,16 @@
 
 #pragma mark - Custom Method
 
+-(instancetype)configAppID:(uint32_t)appID appKey:(NSString *)appKey {
+    self.appID = appID;
+    self.appKey = appKey;
+    return self;
+}
+
+
 -(void)startXGPush{
     //启动信鸽推送服务
-    [[XGPush defaultManager] startXGWithAppID:2200331850 appKey:@"IG6KRRX2857P" delegate:self];
+    [[XGPush defaultManager] startXGWithAppID:self.appID appKey:self.appKey delegate:self];
 
 //    [[XGPush defaultManager] deviceNotificationIsAllowed:^(BOOL isAllowed) {
 //        if(!isAllowed){
@@ -154,7 +166,7 @@
 //程序启动时处理推送
 - (void)handPushInApplicationDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //启动信鸽推送服务
-    [[XGPush defaultManager] startXGWithAppID:2200331850 appKey:@"IG6KRRX2857P" delegate:self];
+    [self startXGPush];
     // 设置应用角标
     [[XGPush defaultManager] setXgApplicationBadgeNumber:0];
 }

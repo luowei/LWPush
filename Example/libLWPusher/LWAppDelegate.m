@@ -14,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    [[LWPushManager shareManager] configAppID:2200331850 appKey:@"IG6KRRX2857P"];
     [[LWPushManager shareManager] handPushInApplicationDidFinishLaunchingWithOptions:launchOptions];
 
     return YES;

@@ -30,6 +30,8 @@
     NSString *account = self.accountField.text ?: [@"test_user_" stringByAppendingFormat:@"%d",arc4random_uniform(1000)];
     [[LWPushManager shareManager] bindAccount:account];
     [[NSUserDefaults standardUserDefaults] setObject:account forKey:@"kPushBindAccount"];
+
+    PushLog(@"=========bindAccount:%@",account);
 }
 
 - (IBAction)unbindAction:(UIButton *)sender {
@@ -37,6 +39,8 @@
     if(account.length > 0){
         [[LWPushManager shareManager] unbindAccount:account];
     }
+
+    PushLog(@"=========unbindAccount:%@",account);
 }
 
 @end

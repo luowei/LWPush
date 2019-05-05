@@ -13,7 +13,13 @@
 
 @interface LWPushManager : NSObject
 
+@property(nonatomic) uint32_t appID;
+
+@property(nonatomic, copy) NSString *appKey;
+
 + (instancetype)shareManager;
+
+-(instancetype)configAppID:(uint32_t)appID appKey:(NSString *)appKey;
 
 -(void)startXGPush;
 -(void)stopXGPush;
