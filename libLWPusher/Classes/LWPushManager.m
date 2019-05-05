@@ -27,8 +27,8 @@
         sharedMyManager = [[self alloc] init];
 
         //默认配置为Test App
-        sharedMyManager.appID = 2200331850;
-        sharedMyManager.appKey = @"IG6KRRX2857P";
+        sharedMyManager.appID = 2200198799;
+        sharedMyManager.appKey = @"I4511B1BNREA";
     });
     return sharedMyManager;
 }
