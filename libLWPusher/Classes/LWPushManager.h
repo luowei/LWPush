@@ -8,7 +8,7 @@
 #ifdef DEBUG
 #define PushLog(fmt, ...) NSLog((@"%s [Line %d]\n" fmt @"\n\n\n"), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
 #else
-#define APPLog(...)
+#define PushLog(...)
 #endif
 
 @interface LWPushManager : NSObject
