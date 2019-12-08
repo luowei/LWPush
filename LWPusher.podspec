@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint libLWPusher.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWPusher.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'libLWPusher'
+  s.name             = 'LWPusher'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of libLWPusher.'
+  s.summary          = 'A short description of LWPusher.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,26 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/luowei/libLWPusher'
+  s.homepage         = 'https://github.com/luowei/LWPusher'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://github.com/luowei/libLWPusher.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/luowei/LWPusher.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libLWPusher/Classes/**/*','libLWPusher/XGPush/*.{h,m}'
+  s.source_files = 'LWPusher/Classes/**/*','LWPusher/XGPush/*.{h,m}'
   
   # s.resource_bundles = {
-  #   'libLWPusher' => ['libLWPusher/Assets/*.png']
+  #   'LWPusher' => ['LWPusher/Assets/*.png']
   # }
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
   s.frameworks = 'Foundation','UIKit','CoreTelephony', 'SystemConfiguration'
   s.weak_framework = 'UserNotifications'
 
-  s.vendored_libraries = 'libLWPusher/XGPush/libXGPush.a'
+  s.vendored_libraries = 'LWPusher/XGPush/libXGPush.a'
   s.libraries = 'sqlite3','z','XGPush'
 
   s.static_framework = true
@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
 
 
   # s.xcconfig = {
-  #   # 'OTHER_LDFLAGS' => '$(inherited) -force_load $(SRCROOT)/libLWPusher/XGPush/libXG-SDK.a'
+  #   # 'OTHER_LDFLAGS' => '$(inherited) -force_load $(SRCROOT)/LWPusher/XGPush/libXG-SDK.a'
   #   # 'OTHER_LDFLAGS' => '-force_load $(inherited)'
   #   'OTHER_LDFLAGS' => '$(inherited)'
   # }
@@ -60,21 +60,21 @@ TODO: Add long description of the pod here.
   # https://www.jianshu.com/p/5d987d82d4d9
 
   # s.subspec 'XGPush' do |c|
-  #   c.source_files = 'libLWPusher/XGPush/*.{h,m}'
-  #   c.vendored_libraries = 'libLWPusher/XGPush/libXG-SDK.a'
+  #   c.source_files = 'LWPusher/XGPush/*.{h,m}'
+  #   c.vendored_libraries = 'LWPusher/XGPush/libXG-SDK.a'
   #   c.libraries = 'XG-SDK','sqlite3','z'
   #   # c.frameworks = 'Foundation','UIKit','CoreTelephony', 'SystemConfiguration'
   #   # c.weak_framework = 'UserNotifications'
   # end
 
   #s.subspec 'XGPush' do |c|
-  #    # c.public_header_files = 'libLWPusher/XGPush/XGPush.h'
+  #    # c.public_header_files = 'LWPusher/XGPush/XGPush.h'
   #    # c.dependency 'AFNetworking'
-  #    # c.resources = 'libLWPusher/XGPush/Assets/*'
+  #    # c.resources = 'LWPusher/XGPush/Assets/*'
   #
-  #    c.source_files = 'libLWPusher/XGPush/*.{h,m}'
-  #    c.preserve_paths = 'libLWPusher/XGPush/*.h'
-  #    c.vendored_libraries = 'libLWPusher/XGPush/libXG-SDK.a'
+  #    c.source_files = 'LWPusher/XGPush/*.{h,m}'
+  #    c.preserve_paths = 'LWPusher/XGPush/*.h'
+  #    c.vendored_libraries = 'LWPusher/XGPush/libXG-SDK.a'
   #    c.libraries = 'XG-SDK','sqlite3','z'
   #    c.frameworks = 'UIKit','CoreTelephony', 'SystemConfiguration'
   #

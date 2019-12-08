@@ -1,16 +1,16 @@
 PODS:
-  - libLWPusher (1.0.0)
+  - LWPusher (1.0.0)
 
 DEPENDENCIES:
-  - libLWPusher (from `../`)
+  - LWPusher (from `../`)
 
 EXTERNAL SOURCES:
-  libLWPusher:
+  LWPusher:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libLWPusher: e2d1b4636a14865f4280fdb52d9ebd6674030f69
+  LWPusher: 9df72d3410685c1865f85fd3964d3b9d4491faa8
 
-PODFILE CHECKSUM: 53815a0abc3638ccf7f7a8de25e83b1e9ff1236c
+PODFILE CHECKSUM: ced0177e3cfb23a9c8b5ee7bc6b1def057841f0d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

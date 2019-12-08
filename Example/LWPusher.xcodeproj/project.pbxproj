@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C9EB1B07073BF85D1D3EB61 /* Pods_libLWPusher_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54BA8A3AFB782614F825D6B /* Pods_libLWPusher_Example.framework */; };
+		23FE285C09DAE498F1B9E679 /* Pods_LWPusher_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224B2E4F17421CBEB3B59D06 /* Pods_LWPusher_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,16 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E363CEC4A03720142D430B6 /* Pods_libLWPusher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libLWPusher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E363CEC4A03720142D430B6 /* Pods_LWPusher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWPusher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B2E4F17421CBEB3B59D06 /* Pods_LWPusher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWPusher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6DF1F0EF09F4CB8599846A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* libLWPusher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libLWPusher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* LWPusher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWPusher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* libLWPusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libLWPusher-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* LWPusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWPusher-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* libLWPusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libLWPusher-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LWPusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWPusher-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
@@ -45,21 +46,22 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BF14583548DD10B58AE5648 /* Pods-libLWPusher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWPusher_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libLWPusher_Example/Pods-libLWPusher_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D71CD53922063126C525A66 /* Pods-libLWPusher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWPusher_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libLWPusher_Tests/Pods-libLWPusher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B54BA8A3AFB782614F825D6B /* Pods_libLWPusher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libLWPusher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF14583548DD10B58AE5648 /* Pods-LWPusher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Example/Pods-LWPusher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D71CD53922063126C525A66 /* Pods-LWPusher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Tests/Pods-LWPusher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE520CD705636FBEA7D5E30 /* Pods-LWPusher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Example/Pods-LWPusher_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEF0611B2BE0D07EEF6A0FCB /* LWAppDelegate+LWPusher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWAppDelegate+LWPusher.m"; sourceTree = "<group>"; };
 		BEF06F6F3E719301EF09E812 /* LWAppDelegate+LWPusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWAppDelegate+LWPusher.h"; sourceTree = "<group>"; };
-		D10F8689DB549D65DE505C30 /* Pods-libLWPusher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWPusher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libLWPusher_Example/Pods-libLWPusher_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD1BC446E30DC9B4BF49669F /* Pods-libLWPusher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libLWPusher_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-libLWPusher_Tests/Pods-libLWPusher_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFA2F4D5124A1D42F6167F50 /* libLWPusher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libLWPusher.podspec; path = ../libLWPusher.podspec; sourceTree = "<group>"; };
-		EA568E70227EE066004340CC /* libLWPusher_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = libLWPusher_Example.entitlements; sourceTree = "<group>"; };
+		D10F8689DB549D65DE505C30 /* Pods-LWPusher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Example/Pods-LWPusher_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD1BC446E30DC9B4BF49669F /* Pods-LWPusher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Tests/Pods-LWPusher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DFA2F4D5124A1D42F6167F50 /* LWPusher.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWPusher.podspec; path = ../LWPusher.podspec; sourceTree = "<group>"; };
+		EA568E70227EE066004340CC /* LWPusher_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LWPusher_Example.entitlements; sourceTree = "<group>"; };
 		EA568E71227EE180004340CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		EA568E73227EE1A7004340CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EA568E75227EE1BD004340CC /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		EA568E77227EE1E4004340CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		EA568E79227EE1EE004340CC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EFE29AE885D7BE1011FA9244 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F80331A54456F11ADE9C7896 /* Pods-LWPusher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWPusher_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWPusher_Example/Pods-LWPusher_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4C9EB1B07073BF85D1D3EB61 /* Pods_libLWPusher_Example.framework in Frameworks */,
+				23FE285C09DAE498F1B9E679 /* Pods_LWPusher_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +87,12 @@
 		0E3CAAD7CBE726BF41E18ACE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BF14583548DD10B58AE5648 /* Pods-libLWPusher_Example.debug.xcconfig */,
-				D10F8689DB549D65DE505C30 /* Pods-libLWPusher_Example.release.xcconfig */,
-				9D71CD53922063126C525A66 /* Pods-libLWPusher_Tests.debug.xcconfig */,
-				DD1BC446E30DC9B4BF49669F /* Pods-libLWPusher_Tests.release.xcconfig */,
+				9BF14583548DD10B58AE5648 /* Pods-LWPusher_Example.debug.xcconfig */,
+				D10F8689DB549D65DE505C30 /* Pods-LWPusher_Example.release.xcconfig */,
+				9D71CD53922063126C525A66 /* Pods-LWPusher_Tests.debug.xcconfig */,
+				DD1BC446E30DC9B4BF49669F /* Pods-LWPusher_Tests.release.xcconfig */,
+				F80331A54456F11ADE9C7896 /* Pods-LWPusher_Example.debug.xcconfig */,
+				AAE520CD705636FBEA7D5E30 /* Pods-LWPusher_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,9 +100,9 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				EA568E70227EE066004340CC /* libLWPusher_Example.entitlements */,
+				EA568E70227EE066004340CC /* LWPusher_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for libLWPusher */,
+				6003F593195388D20070C39A /* Example for LWPusher */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				0E3CAAD7CBE726BF41E18ACE /* Pods */,
@@ -108,7 +112,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* libLWPusher_Example.app */,
+				6003F58A195388D20070C39A /* LWPusher_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,13 +129,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B54BA8A3AFB782614F825D6B /* Pods_libLWPusher_Example.framework */,
-				1E363CEC4A03720142D430B6 /* Pods_libLWPusher_Tests.framework */,
+				1E363CEC4A03720142D430B6 /* Pods_LWPusher_Tests.framework */,
+				224B2E4F17421CBEB3B59D06 /* Pods_LWPusher_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for libLWPusher */ = {
+		6003F593195388D20070C39A /* Example for LWPusher */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LWAppDelegate.h */,
@@ -144,17 +148,17 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				BEF06068FA1D9312110FF11C /* Pusher */,
 			);
-			name = "Example for libLWPusher";
-			path = libLWPusher;
+			name = "Example for LWPusher";
+			path = LWPusher;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* libLWPusher-Info.plist */,
+				6003F595195388D20070C39A /* LWPusher-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* libLWPusher-Prefix.pch */,
+				6003F59B195388D20070C39A /* LWPusher-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DFA2F4D5124A1D42F6167F50 /* libLWPusher.podspec */,
+				DFA2F4D5124A1D42F6167F50 /* LWPusher.podspec */,
 				EFE29AE885D7BE1011FA9244 /* README.md */,
 				3D6DF1F0EF09F4CB8599846A /* LICENSE */,
 			);
@@ -181,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* libLWPusher_Example */ = {
+		6003F589195388D20070C39A /* LWPusher_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libLWPusher_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWPusher_Example" */;
 			buildPhases = (
 				C18602CE8C97E687CC54477B /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -194,9 +198,9 @@
 			);
 			dependencies = (
 			);
-			name = libLWPusher_Example;
-			productName = libLWPusher;
-			productReference = 6003F58A195388D20070C39A /* libLWPusher_Example.app */;
+			name = LWPusher_Example;
+			productName = LWPusher;
+			productReference = 6003F58A195388D20070C39A /* LWPusher_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -222,11 +226,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "libLWPusher" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LWPusher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -235,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* libLWPusher_Example */,
+				6003F589195388D20070C39A /* LWPusher_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +275,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libLWPusher_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LWPusher_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,14 +393,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BF14583548DD10B58AE5648 /* Pods-libLWPusher_Example.debug.xcconfig */;
+			baseConfigurationReference = F80331A54456F11ADE9C7896 /* Pods-LWPusher_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = libLWPusher_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = LWPusher_Example.entitlements;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libLWPusher/libLWPusher-Prefix.pch";
-				INFOPLIST_FILE = "libLWPusher/libLWPusher-Info.plist";
+				GCC_PREFIX_HEADER = "LWPusher/LWPusher-Prefix.pch";
+				INFOPLIST_FILE = "LWPusher/LWPusher-Info.plist";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -409,14 +414,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D10F8689DB549D65DE505C30 /* Pods-libLWPusher_Example.release.xcconfig */;
+			baseConfigurationReference = AAE520CD705636FBEA7D5E30 /* Pods-LWPusher_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = libLWPusher_Example.entitlements;
+				CODE_SIGN_ENTITLEMENTS = LWPusher_Example.entitlements;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libLWPusher/libLWPusher-Prefix.pch";
-				INFOPLIST_FILE = "libLWPusher/libLWPusher-Info.plist";
+				GCC_PREFIX_HEADER = "LWPusher/LWPusher-Prefix.pch";
+				INFOPLIST_FILE = "LWPusher/LWPusher-Info.plist";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -431,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "libLWPusher" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LWPusher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -440,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libLWPusher_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWPusher_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
