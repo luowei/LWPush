@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'LWPusher' => ['LWPusher/Assets/*.png']
   # }
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'LWPusher/Classes/**/*.h'
 
   s.frameworks = 'Foundation','UIKit','CoreTelephony', 'SystemConfiguration'
   s.weak_framework = 'UserNotifications'
