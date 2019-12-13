@@ -6,8 +6,8 @@
 //  Copyright (c) 2019 luowei. All rights reserved.
 //
 
+#import <LWPusher/LWPushManager.h>
 #import "LWAppDelegate.h"
-#import "LWPushManager.h"
 
 @implementation LWAppDelegate
 
