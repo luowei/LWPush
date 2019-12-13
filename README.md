@@ -24,11 +24,13 @@ pod 'LWPusher'
 
 luowei, luowei@wodedata.com
 
-## License
+## License  
 
 LWPusher is available under the MIT license. See the LICENSE file for more info.
 
 
-## PEM生成
-openssl pkcs12 -in aps.p12 -out aps.pem -nodes
-openssl pkcs12 -in aps_development.p12 -out aps_development.pem -nodes
+## PEM生成  
+```
+openssl pkcs12 -in aps.p12 -out aps.pem -nodes  
+openssl pkcs12 -in aps_development.p12 -out aps_development.pem -nodes  
+```
