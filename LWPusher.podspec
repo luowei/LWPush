@@ -37,14 +37,14 @@ TODO: Add long description of the pod here.
   # }
   s.public_header_files = [
       'LWPusher/Classes/**/*.h',
-      'LWPusher/XGPush/**/*.h'
+      'LWPusher/Classes/XGPush/**/*.h'
   ]
 
   s.frameworks = 'Foundation','UIKit','CoreTelephony', 'SystemConfiguration'
   s.weak_framework = 'UserNotifications'
 
-  s.vendored_libraries = 'LWPusher/XGPush/libXGPush.a'
-  s.libraries = 'sqlite3','z','XGPush'
+  s.vendored_libraries = 'LWPusher/Classes/XGPush/libXGPush.a'
+  s.libraries = 'sqlite3','z'
 
   s.static_framework = true
 
