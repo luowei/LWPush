@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   s.weak_framework = 'UserNotifications'
 
   s.vendored_libraries = 'LWPusher/Classes/XGPush/libXGPush.a'
-  s.libraries = 'sqlite3','z'
+  s.libraries = 'sqlite3','z',"XGPush"
 
   s.static_framework = true
 
