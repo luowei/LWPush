@@ -20,6 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'LWPusher'
 ```
 
+### Usage
+
+```
+[[LWPushManager shareManager] configAppID:2288888899 appKey:@"I45XXXXXXXEA"];
+[[LWPushManager shareManager] handPushInApplicationDidFinishLaunchingWithOptions:launchOptions];
+```
+
 ## Author
 
 luowei, luowei@wodedata.com
