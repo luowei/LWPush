@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LWPush，推送组件，两行代码快速集成推送功能，基于信鸽推送，支持打开处理自定义的推送落地页。
                        DESC
 
-  s.homepage         = 'https://gitlab.com/ioslibraries1/liblwpusher.git'
+  s.homepage         = 'https://github.com/luowei/LWPush'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://gitlab.com/ioslibraries1/liblwpusher.git' }
+  s.source           = { :git => 'https://github.com/luowei/LWPush.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
